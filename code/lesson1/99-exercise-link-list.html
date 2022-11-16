@@ -58,6 +58,11 @@
             url: "http://www.twitter.com",
           },
         ];
+        let markup = "<ul>";
+        linkList.forEach(function (item) {
+          markup += `<li><a href="${item.url}">${item.title}</a></li>`;
+        });
+        document.write(markup + "</ul>");
       </script>
       Work goes here!
     </code>

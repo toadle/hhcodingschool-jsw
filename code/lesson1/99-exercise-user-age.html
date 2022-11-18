@@ -35,23 +35,9 @@
     </div>
     <hr />
     <code>
+      Work goes here!
       <script>
-        const forename = prompt("What is your forename?");
-        const lastname = prompt("What is your lastname?");
-
-        const userName = `${forename} ${lastname}`;
-        const birthDate = Date.parse(
-          prompt("What is your birth date? (e.g. 12. Jan 1980)")
-        );
-
-        if (birthDate > 0) {
-          const timeSinceBirth = new Date() - new Date(birthDate);
-          const yearsSinceBirth = timeSinceBirth / (1000 * 60 * 60 * 24 * 365);
-          document.write(`<h1>Hello ${userName}</h1>`);
-          document.write(`<h2>You are ${yearsSinceBirth} years old.</h2>`);
-        } else {
-          console.error("Birthdate could not be parsed!");
-        }
+        //Code goes here
       </script>
     </code>
     <hr />
